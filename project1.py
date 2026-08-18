@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # ---------------------------------------------------------
 # 1. READ CSV DATA (PURE PYTHON)
-# ---------------------------------------------------------
+# --------------------------------------------------------
 # Locate file dynamically in the same folder as project1.py
 data = []
 with open("Student_Grade_Management.csv", mode="r") as file:
@@ -98,7 +98,7 @@ plt.show()
 
 # ---------------------------------------------------------
 # GRAPH 4: STACKED BAR CHART (SUBJECT BREAKDOWN)
-# ---------------------------------------------------------
+# --------------------------------------------------------
 plt.figure(figsize=(12, 6))
 bottoms = [0.0] * len(names)
 colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"]
