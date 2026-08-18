@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # ---------------------------------------------------------
 # 1. READ CSV DATA (PURE PYTHON)
-# ---------------------------------------------------------
+# --------------------------------------------------------
 # Locate file dynamically in the same folder as project1.py
 data = []
 with open("Student_Grade_Management.csv", mode="r") as file:
